@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer type="module" src="scripts/script.js"></script>
+    <title>Nonso Chiagunye</title>
+  </head>
+  <body id="wrapper">
+    <header class="header">
+      <nav class="nav">
+        <img
+          src=""
+          alt=""
+          class="nav__logo"
+          id="logo"
+          designer="nonso"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link btn--home" href="#home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Experience</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Certificates</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--5">Skills</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="home-page" id="home">
+        <img class="profile-pic" src="img/Passport .jpg" />
+        <div class="header__title">
+          <div class="greet"><h1>Hello!</h1></div>
+
+          <div class="my-name">
+            <h1 class="highlight">I'm Nonso Chiagunye</h1>
+          </div>
+
+          <div class="my-work">
+            <h2 class="">A CyberSecurity Professional</h2>
+          </div>
+
+          <div class="my-work-place">
+            <h4>Currently, I work at Jumia Group, Porto Tech Center.</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section section--sign-up" id="section--1">
+      <div class="about-me">
+        <h3 class="section__header text--about-me">About Me</h3>
+        <div class="section__title about--container">
+          <div class="btn--download-cv">
+            <button class="botn btn--show-modal botn-cv botn--inquiry">
+              Get in touch...
+            </button>
+            <button class="botn botn--cv">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title section__title--testimonials">
+        <h3 class="section__header">My Work Experience</h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1"></div>
+
+        <div class="slide slide--2"></div>
+        <div class="slide slide--3"></div>
+        <div class="slide slide--4"></div>
+        <div class="slide slide--5"></div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title">
+        <h3 class="section__header">Some of my recent projects...</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Cloudflare ZTNA
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>CyberArk PAM
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Prometheus Monitoring
+          </button>
+          <button class="btn operations__tab operations__tab--4" data-tab="4">
+            <span>04</span>Wazuh Integration
+          </button>
+          <button class="btn operations__tab operations__tab--5" data-tab="5">
+            <span>05</span>AWS Security Automation
+          </button>
+        </div>
+
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        ></div>
+
+        <div class="operations__content operations__content--2"></div>
+
+        <div class="operations__content operations__content--3"></div>
+
+        <div class="operations__content operations__content--4"></div>
+
+        <div class="operations__content operations__content--5"></div>
+      </div>
+    </section>
+
+    <section class="section section--certs" id="section--4">
+      <div class="certificates">
+        <div class="certifications">
+          <div>
+            <h2 class="section__description">Certifications</h2>
+          </div>
+          <div class="certifications-text"></div>
+        </div>
+
+        <div class="education">
+          <div>
+            <h2 class="section__description">Education</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--core-skills" id="section--5">
+      <div class="skills--contact">
+        <div class="section__description core--skills">Core Skills</div>
+        <div class="skills">
+          <ul class="core--skills-text list--core-skills"></ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__copyright">
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/chiagunye/" target="_blank"
+            ><img class="footer--img" src="img/linkedin.png"
+          /></a>
+          <a href="https://github.com/nonso-chiagunye" target="_blank"
+            ><img class="footer--img" src="img/github.png"
+          /></a>
+        </div>
+        <div class="footer-text">
+          Copyright &copy;
+          <span class="footer__link twitter-link"
+            ><span class="copyright--date"></span> Nonso Chiagunye</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal hidden">
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/xqkvyozl"
+        method="POST"
+      >
+        <div class="name-email">
+          <label>
+            <input
+              class="input-form input--form-name"
+              placeholder="Your Name"
+              type="text"
+              name="name"
+            />
+          </label>
+          <label class="email-label">
+            <input
+              class="input-form input--form-email"
+              placeholder="Your Email"
+              type="email"
+              name="email"
+            />
+          </label>
+        </div>
+
+        <label>
+          <input
+            class="input-form input--form-subject"
+            placeholder="Subject"
+            type="text"
+            name="subject"
+          />
+        </label>
+        <label>
+          <textarea
+            class="input-form input--form-message"
+            placeholder="Your message"
+            name="message"
+          ></textarea>
+        </label>
+
+        <button class="btn--send" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
