@@ -53,7 +53,8 @@ document.addEventListener('keydown', function (e) {
 });
 
 btnCV.addEventListener('click', function () {
-  window.location.href = '../info/cv.pdf';
+  window.location.href =
+    'https://nonso-chiagunye.github.io/chiagunye-dot-com/info/cv.pdf';
 });
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
