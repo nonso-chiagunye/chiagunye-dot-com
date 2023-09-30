@@ -12,7 +12,7 @@ const job1 = {
     '&#9672; Implement solutions necessary to address security audits and compliance efforts on our cloud platform',
     '&#9672; Drive continuous improvement to reduce threat dwell time in our environment through automation, and process simplification, among others',
     '&#9672; Work closely with development teams to ensure we are considering security when architecting and building new features/applications',
-    '&#9672; Ensure that solutions are engineered with operational efficiency and security by design',
+
     '&#9672; Build automation frameworks and systems to improve security by design mentality on current CI/CD system',
     '&#9672; Configure and fine-tune security tools for optimal threat detection and prevention',
     '&#9672; Participate in on-call for security incident response',
