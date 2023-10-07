@@ -1428,11 +1428,11 @@ SECTION CORE SKILLS
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
   .nav {
-    display: none;
+    display: flex;
   }
 
   .nav-toggle-label {
-    display: inline;
+    display: none;
   }
 
   .home-page {
@@ -1444,11 +1444,11 @@ SECTION CORE SKILLS
   }
 
   .section-slider {
-    height: 120rem;
+    height: 100rem;
   }
 
   .section--projects {
-    height: 110rem;
+    height: 90rem;
   }
 
   .operations__tab-container {
@@ -1460,7 +1460,7 @@ SECTION CORE SKILLS
   }
 
   .section--certs {
-    height: 100rem;
+    height: 80rem;
   }
 
   .skills {
@@ -1487,11 +1487,11 @@ SECTION CORE SKILLS
   }
 
   .section-slider {
-    height: 100rem;
+    height: 90rem;
   }
 
   .section--projects {
-    height: 90rem;
+    height: 80rem;
   }
 
   .operations__tab-container {
@@ -1530,11 +1530,11 @@ SECTION CORE SKILLS
   }
 
   .section-slider {
-    height: 90rem;
+    height: 80rem;
   }
 
   .section--projects {
-    height: 80rem;
+    height: 75rem;
   }
 
   .operations__tab-container {
