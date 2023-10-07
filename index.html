@@ -16,6 +16,13 @@
   </head>
   <body id="wrapper">
     <header class="header">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label nav__toggle-label">
+        <!-- <span></span> -->
+        <div class="nav-toggle-div-1"></div>
+        <div class="nav-toggle-div-2"></div>
+        <div class="nav-toggle-div-3"></div>
+      </label>
       <nav class="nav">
         <!-- <img
           src=""
@@ -53,10 +60,10 @@
         </div>
 
         <div class="header__title">
-          <div class="greet"><h1>Hello!</h1></div>
+          <div class="greet"><h4>Profile of</h4></div>
 
           <div class="my-name">
-            <h1 class="highlight">I'm Nonso Chiagunye</h1>
+            <h1 class="highlight">Nonso Chiagunye</h1>
           </div>
 
           <div class="my-work">
@@ -64,7 +71,7 @@
           </div>
 
           <div class="my-work-place">
-            <h4>Currently, I work at Jumia Group, Porto Tech Center</h4>
+            <h4>Working with Jumia Group, Porto Tech Center</h4>
           </div>
         </div>
       </div>
@@ -239,5 +246,35 @@
       </form>
     </div>
     <div class="overlay hidden"></div>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay-2">
+      <!-- Button to close the overlay navigation -->
+      <a href="#" class="closebtn close__nav"><span>CLOSE</span>&#10006;</a>
+
+      <!-- Overlay content -->
+      <div class="overlay-2-content overlay-2-links">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link btn--home" href="#home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Experience</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Certificates</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--5">Skills</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>

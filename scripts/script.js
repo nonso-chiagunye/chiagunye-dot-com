@@ -32,6 +32,43 @@ const listCoreSkills = document.querySelector('.list--core-skills');
 const aboutContainer = document.querySelector('.about--container');
 const copyrightDate = document.querySelector('.copyright--date');
 
+const navToggler = document.querySelector('.nav__toggle-label');
+
+const closeNavToggler = document.querySelector('.close__nav');
+
+const navSlide = document.getElementById('myNav');
+
+const openNav = function () {
+  navSlide.style.height = '100%';
+};
+
+const closeNav = function () {
+  navSlide.style.height = '0%';
+};
+
+navToggler.addEventListener('click', function (e) {
+  e.preventDefault();
+  openNav();
+});
+
+closeNavToggler.addEventListener('click', function (e) {
+  e.preventDefault();
+  closeNav();
+});
+
+document
+  .querySelector('.overlay-2-links')
+  .addEventListener('click', function (e) {
+    e.preventDefault();
+
+    if (e.target.classList.contains('nav__link')) {
+      const id = e.target.getAttribute('href');
+      // console.log(id);
+      document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+      closeNav();
+    }
+  });
+
 const openModal = function (e) {
   e.preventDefault();
   modal.classList.remove('hidden');
@@ -59,7 +96,6 @@ btnCV.addEventListener('click', function () {
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
   e.preventDefault();
-  // console.log(e.target);
 
   if (e.target.classList.contains('nav__link')) {
     const id = e.target.getAttribute('href');
