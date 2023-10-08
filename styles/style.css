@@ -727,6 +727,10 @@ SLIDER SECTION STARTS
   font-size: 1.6rem;
 }
 
+.job__role {
+  font-style: italic;
+}
+
 .dots {
   position: absolute;
   bottom: 5%;

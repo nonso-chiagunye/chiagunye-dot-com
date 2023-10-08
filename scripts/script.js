@@ -162,7 +162,7 @@ jobs.forEach((job, i) => {
     
     <div class="testimonial">
       <h2 class="section__description">${job.employmentPeriods}</h2>
-      <h3 class="testimonial__header">${job.jobRole}</h3>
+      <h3 class="testimonial__header job__role">${job.jobRole}</h3>
       <h3 class="testimonial__header">${job.company}</h3>
   
       <span class="testimonial__text2">${job.jDs.join(
