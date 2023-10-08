@@ -1369,7 +1369,7 @@ SECTION CORE SKILLS
   }
 
   .section--projects {
-    height: 160rem;
+    height: 180rem;
   }
 
   .operations__tab-container {
@@ -1381,11 +1381,11 @@ SECTION CORE SKILLS
   }
 
   .section--certs {
-    height: 110rem;
+    height: 130rem;
   }
 
   .skills {
-    width: 95%;
+    width: 100%;
   }
 
   .botn {
