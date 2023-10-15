@@ -20,12 +20,10 @@
 
 html {
   font-size: 62.5%;
-  /* font-size: 48%; */
   box-sizing: border-box;
 }
 
 body {
-  /* font-size: 1.2rem; */
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: #444;
@@ -36,10 +34,8 @@ body {
 
 /* GENERAL ELEMENTS */
 .section {
-  /* padding: 15rem 3rem; */
   padding: 8rem 3rem;
   border-top: 2px solid #ddd;
-
   transition: transform 1s, opacity 1s;
 }
 
@@ -70,12 +66,8 @@ body {
 .btn {
   display: inline-block;
   background-color: var(--color-primary);
-  /* font-size: 1rem; */
   font-family: inherit;
-  /* height: 10px; */
-  /* font-weight: 5; */
   border: none;
-  /* padding: 0.2rem 0.6rem; */
   border-radius: 6rem;
   cursor: pointer;
   transition: all 0.3s;
@@ -88,20 +80,6 @@ body {
 .btn:hover {
   background-color: var(--color-primary-darker);
 }
-
-/* .btn--text {
-  display: inline-block;
-  background: none;
-  font-size: 1.7rem;
-  font-family: inherit;
-  font-weight: 500;
-  color: var(--color-primary);
-  border: none;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
-  cursor: pointer;
-  transition: all 0.3s;
-} */
 
 p {
   color: #666;
@@ -147,52 +125,27 @@ HEADER SECTION START
 
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* background-image: url('img/backg.png'); */
-  /* filter: blur(8px); */
-  /* background-color: #cccccc; */
-  /* word-wrap: break-word; */
-  /* padding-bottom: 1rem; */
-  /* box-sizing: border-box; */
-  /* overflow: hidden; */
-
-  /* border: 2px solid red; */
 }
 
 .header::after {
   content: '';
-  /* display: flex; */
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  /* width: 100%; */
-  /* height: 100%; */
-  /* min-height: 100%; */
   opacity: 0.4;
   z-index: -1;
   background: url('../img/bg.jpg') center center;
-  /* background-size: contain; */
-  /* background-size: 100%; */
-  /* background-repeat: no-repeat; */
-  /* width: 100vw; */
-  /* border: 4px solid green; */
-  /* background-position: 50% 0; */
 }
 
 .nav {
-  /* display: flex; */
-  /* display: none; */
-
   justify-content: right;
   align-items: center;
   height: 5rem;
   width: 100%;
   padding: 0 4rem;
   z-index: 100;
-
-  /* border: 2px solid yellow; */
 }
 
 /* nav and stickly class at the same time */
@@ -200,11 +153,6 @@ HEADER SECTION START
   position: fixed;
   background-color: rgba(255, 255, 255, 0.95);
 }
-
-/* .nav__logo {
-  height: 4.5rem;
-  transition: all 0.3s;
-} */
 
 .nav__links {
   display: flex;
@@ -226,7 +174,6 @@ HEADER SECTION START
   display: block;
   transition: all 0.3s;
   font-weight: bold;
-  /* height: 20000px; */
 }
 
 .nav__link--btn:link,
@@ -250,7 +197,6 @@ HEADER SECTION START
 
 .nav-toggle-label {
   display: none;
-  /* display: inline; */
   width: 4rem;
   height: 7%;
   padding-top: 0.7rem;
@@ -261,35 +207,8 @@ HEADER SECTION START
   cursor: pointer;
   border-radius: 10%;
   background-color: white;
-  /* justify-content: right; */
-  /* text-align: right; */
   border: none;
-
-  /* border: 1px solid black; */
 }
-
-/* .nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  display: inline-block;
-  background: green;
-  height: 20%;
-  width: 80%;
-  border-radius: 20%;
-  margin: 0;
-  position: relative;
-  border: 1px solid yellow;
-}
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  content: '';
-  position: absolute;
-}
-
-.nav-toggle-label span::before {
-  top: 2rem;
-} */
 
 .nav-toggle-div-1,
 .nav-toggle-div-2,
@@ -305,11 +224,6 @@ HEADER SECTION START
   background: var(--gradient-primary);
 }
 
-/* .nav-toggle-label span::before {
-  content: '';
-  margin: 0;
-} */
-
 .nav-toggle:checked ~ nav {
   display: flex;
 }
@@ -317,7 +231,6 @@ HEADER SECTION START
 /* NAV SPREAD STARTS*/
 
 .overlay-2 {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 0;
   width: 100%;
   position: fixed; /* Stay in place */
@@ -338,21 +251,15 @@ HEADER SECTION START
   height: 65%;
   text-align: center; /* Centered text/links */
   margin-top: 2rem; /* 30px top margin to avoid conflict with the close button on smaller screens */
-
-  /* border: 2px solid red; */
 }
 
 .overlay-2-content ul {
   padding: 2rem;
   text-decoration: none;
-  /* font-size: 2rem; */
-  /* color: #818181; */
   display: block; /* Display block instead of inline */
   margin: auto;
 
   transition: 0.3s; /* Transition effects on hover (color) */
-
-  /* color: red; */
 }
 
 .overlay-2-content li {
@@ -364,10 +271,8 @@ HEADER SECTION START
 
 .overlay-2-content li:hover,
 .overlay-2-content li:active {
-  /* color: inherit; */
   background-color: rgba(73, 72, 72, 0.1);
   color: var(--color-primary-darker);
-  /* color: #333; */
 }
 
 .overlay-2 .closebtn {
@@ -385,55 +290,35 @@ HEADER SECTION START
 /* NAV SPREAD ENDS*/
 
 .home-page {
-  /* display: grid; */
   display: flex;
   grid-template-columns: 1fr 2fr;
   width: 60%;
   height: 70%;
   margin: auto;
-  /* margin-top: 8rem; */
   align-items: center;
   text-align: center;
-  /* justify-self: center; */
-  /* line-height: 0.6; */
-  /* height: 100vh; */
-  /* height: auto; */
-  /* overflow: hidden; */
-  /* word-wrap: break-word; */
-  /* padding-top: 6rem; */
   position: relative;
-  /* border: 2px solid blue; */
 }
 
 .profile-pic {
   display: none;
   background-image: url(../img/Passport.jpg);
-  /* width: 15rem; */
   height: 20rem;
   width: 50%;
-  /* height: 0; */
-  /* width: 0; */
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-
   z-index: 1;
   border-radius: 50%;
-  /* border: 2px solid red; */
 }
 
 .header__title {
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   height: 100%;
-
   position: relative;
-  /* align-content: center; */
   justify-content: center;
-
   align-items: center;
-  /* border: 6px solid purple; */
 }
 
 .greet {
@@ -448,21 +333,9 @@ HEADER SECTION START
   margin-bottom: 8%;
 }
 
-/* .my-work-place {
-  margin-bottom: 12rem;
-} */
-
-/* .header__img {
-  width: 50%;
-  grid-column: 2 / 3;
-  grid-row: 1 / span 4;
-  transform: translateY(-6rem);
-} */
-
 .highlight {
   position: relative;
   font-size: 5rem;
-  /* border: 2px solid red; */
 }
 
 .highlight::after {
@@ -488,28 +361,19 @@ ABOUT ME SECTION START
 */
 
 .section--sign-up {
-  /* background-color: #37383d; */
   border-top: none;
   justify-content: center;
-  /* border-bottom: 1px solid #444; */
   text-align: center;
   padding-top: 8rem;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 4rem;
-  /* height: 65rem; */
   height: auto;
-  /* border: 2px solid red; */
 }
 
 .about__me--title {
-  /* border: 2px solid yellow; */
   margin-bottom: 8rem;
 }
-
-/* .about--container {
-  border: 2px solid blue;
-} */
 
 .paragraph--about-me {
   font-size: 1.6rem;
@@ -517,23 +381,16 @@ ABOUT ME SECTION START
 }
 
 .btn--download-cv {
-  /* text-align: right; */
   margin-top: 6rem;
   justify-content: center;
-  /* border: 2px solid red; */
 }
 
 .botn-cv {
   margin-left: 6rem;
-  /* border: 2px solid red; */
 }
 
 .botn {
   display: inline-block;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1%; */
   background-color: var(--color-primary);
   font-family: inherit;
   font-size: 1.6rem;
@@ -542,57 +399,7 @@ ABOUT ME SECTION START
   transition: all 0.3s;
   border-radius: 4rem;
   padding: 1.4rem 2.6rem;
-
-  /* border: 2px solid yellow; */
 }
-
-/* .text--about-me {
-  padding-left: 200px;
-  vertical-align: middle;
-} */
-
-/* FEATURES */
-/* .features {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  margin: 0 12rem;
-}
-
-.features__img {
-  width: 100%;
-}
-
-.features__feature {
-  align-self: center;
-  justify-self: center;
-  width: 70%;
-  font-size: 1.5rem;
-}
-
-.features__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-primary-opacity);
-  height: 5.5rem;
-  width: 5.5rem;
-  border-radius: 50%;
-  margin-bottom: 2rem;
-}
-
-.features__icon svg {
-  height: 2.5rem;
-  width: 2.5rem;
-  fill: var(--color-primary);
-}
-
-.features__header {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-} */
-
-/* OPERATIONS */
 
 /*
 ABOUT ME SECTION ENDS
@@ -603,22 +410,14 @@ SLIDER SECTION STARTS
 */
 
 .section-slider {
-  /* height: 120rem; */
-  /* height: 100rem; */
-  /* height: auto; */
-  /* min-height: 100rem; */
-  /* border: 2px solid green; */
   justify-content: center;
 }
 
 .experience__title-container {
-  /* width: 50%; */
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
-
-  /* border: 2px solid yellow; */
 }
 
 .experirnce__title {
@@ -627,15 +426,12 @@ SLIDER SECTION STARTS
 }
 
 .slider {
-  /* max-width: 160rem; */
   height: 100%;
-  /* height: 100rem; */
   margin: 0 auto;
   position: relative;
 
   /* IN THE END */
   overflow: hidden;
-  /* border: 3px solid black; */
 }
 
 .slide {
@@ -650,26 +446,12 @@ SLIDER SECTION STARTS
 
   /* THIS creates the animation! */
   transition: transform 1s;
-
-  /* border: 6px solid red; */
 }
-
-/* .slide > img {
-
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-  border: 2px solid yellow;
-} */
 
 .slider__btn {
   position: absolute;
   top: 50%;
   z-index: 10;
-  /* border: 2px solid blue; */
-
-  /* border: none; */
   background: rgba(255, 255, 255, 0.7);
   font-family: inherit;
   color: #333;
@@ -691,36 +473,15 @@ SLIDER SECTION STARTS
 }
 
 .testimonial {
-  /* width: 65%; */
   width: 80%;
   height: 95%;
   position: relative;
   text-align: left;
-
-  /* border: 4px solid goldenrod; */
 }
-
-/* .testimonial::before {
-  content: '\201C';
-  position: absolute;
-  top: -5.7rem;
-  left: -6.8rem;
-  line-height: 0.4;
-  font-size: 16rem;
-  text-align: center;
-  font-family: inherit;
-  color: var(--color-primary);
-  z-index: -1;
-
-  border: 4px solid blue;
-} */
 
 .testimonial__header {
   font-size: 2.25rem;
   font-weight: 500;
-  /* margin-bottom: 1.5rem; */
-
-  /* color: red; */
 }
 
 .testimonial__text2 {
@@ -737,8 +498,6 @@ SLIDER SECTION STARTS
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-
-  /* border: 2px solid orangered; */
 }
 
 .dots__dot {
@@ -751,9 +510,6 @@ SLIDER SECTION STARTS
   margin-right: 1.75rem;
   cursor: pointer;
   transition: all 0.5s;
-
-  /* Only necessary when overlying images */
-  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
 }
 
 .dots__dot:last-child {
@@ -761,7 +517,6 @@ SLIDER SECTION STARTS
 }
 
 .dots__dot--active {
-  /* background-color: #fff; */
   background-color: #888;
   opacity: 1;
 }
@@ -774,13 +529,7 @@ SLIDER SECTION ENDS
 PROJECTS SECTION STARTS
 */
 
-/* .section--projects {
-  height: 90rem;
-  border: 2px solid black;
-} */
-
 .project__header-container {
-  /* border: 2px solid green; */
   text-align: center;
 }
 
@@ -791,28 +540,19 @@ PROJECTS SECTION STARTS
 
   background-color: #fff;
   position: relative;
-  /* height: 40rem; */
-  /* height: 90%; */
-
-  /* border: 6px solid red; */
 }
 
 .operations__tab-container {
-  /* display: flex; */
-  /* display: grid; */
   justify-content: center;
   align-items: center;
-  /* border: 4px solid green; */
 }
 
 .operations__tab {
-  /* margin-right: 2.5rem; */
   margin-right: 1%;
 
   transform: translateY(-50%);
   padding: 0.2rem 0.6rem;
   font-size: 1.3rem;
-  /* border: 2px solid orangered; */
 }
 
 .operations__tab span {
@@ -831,7 +571,6 @@ PROJECTS SECTION STARTS
 
 .operations__tab--3 {
   background-color: var(--color-tertiary);
-  /* margin: 0; */
 }
 
 .operations__tab--3:hover {
@@ -861,8 +600,6 @@ PROJECTS SECTION STARTS
 
 .operations__content--active {
   display: grid;
-  /* grid-template-columns: 7rem 1fr; */
-  /* column-gap: 3rem; */
   row-gap: 0.5rem;
 }
 
@@ -930,17 +667,7 @@ SECTION CERTS
 */
 
 .section--certs {
-  /* align-items: center; */
-
   height: 80rem;
-
-  /* word-wrap: break-word; */
-  /* padding-bottom: 3rem; */
-  /* position: relative; */
-  /* overflow: hidden; */
-
-  /* border: 4px solid red; */
-  /* position: fixed; */
 }
 
 .certificates {
@@ -949,15 +676,9 @@ SECTION CERTS
   vertical-align: top;
   align-items: center;
   width: 80%;
-  /* width: 100%; */
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  /* border-style: solid; */
-  /* grid-gap: 10px; */
-  /* background: linear-gradient(#e7e6e6, #dddbdb) center/2px 100% no-repeat; */
-
-  /* border: 4px solid green; */
 }
 
 .certifications,
@@ -966,11 +687,8 @@ SECTION CERTS
   vertical-align: top;
   align-content: center;
   text-align: center;
-  /* padding: 40px; */
   margin: 0;
   height: 95%;
-
-  /* border: 3px solid yellow; */
 }
 
 .certifications-text,
@@ -982,27 +700,12 @@ SECTION CERTS
 .align-cert {
   text-align: left;
   font-size: 1.3rem;
-  /* border: 3px solid blue; */
 }
 
 .education-container {
   display: grid;
   grid-template-columns: 3rem 1fr;
 }
-
-/* .v1 {
-  width: 10px;
-  background-color: red;
-} */
-
-/* .education-details {
-  border: 16px solid blue;
-  border-width: thin;
-  border-color: rgb(227, 223, 223);
-  padding: 0px;
-  margin: 0px;
-  align-content: stretch;
-} */
 
 .school,
 .date {
@@ -1027,26 +730,15 @@ SECTION CERTS
 
 .section--core-skills {
   padding: 0;
-  /* padding: 60px; */
   align-items: center;
   vertical-align: top;
   align-content: center;
   text-align: center;
   height: 50rem;
-
-  /* border: 4px solid blue; */
 }
 
 .skills--contact {
   height: 45rem;
-  /* padding: 60px; */
-  /* align-items: center; */
-  /* vertical-align: top; */
-  /* align-content: center; */
-  /* text-align: center; */
-  /* width: 60%; */
-
-  /* border: 4px solid red; */
 }
 
 .core--skills {
@@ -1056,9 +748,6 @@ SECTION CERTS
 .skills {
   display: inline-block;
   width: 50%;
-  /* width: 90%; */
-
-  /* border: 4px solid green; */
   height: 80%;
 }
 
@@ -1250,10 +939,6 @@ SECTION CORE SKILLS
   font-weight: 400;
 }
 
-/* .footer__copyright {
-  display: inline-block;
-} */
-
 .section--footer {
   height: 20rem;
 }
@@ -1263,7 +948,6 @@ SECTION CORE SKILLS
   border-radius: 1.5rem;
   text-align: center;
   margin-right: 1rem;
-  /* border: 6px solid red; */
 }
 
 .footer--container {
@@ -1275,7 +959,6 @@ SECTION CORE SKILLS
 .footer-links {
   display: inline;
   float: right;
-  /* margin-right: 100px; */
 }
 
 .footer-text {
@@ -1290,7 +973,6 @@ SECTION CORE SKILLS
 .contact-form {
   margin: 0.7rem;
   padding: 1rem 0.2rem;
-  /* width: 400px; */
   width: 100%;
   text-align: left;
 }
@@ -1301,14 +983,11 @@ SECTION CORE SKILLS
 
 .name-email {
   display: flex;
-  /* display: flexbox; */
-  /* width: 100%; */
   justify-content: space-between;
 }
 
 .input--form-name,
 .input--form-email {
-  /* height: 16px; */
   padding: 0.8rem;
   width: 23rem;
   margin-bottom: 0.8rem;
