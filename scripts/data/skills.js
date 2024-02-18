@@ -1,6 +1,7 @@
 'use strict';
 
 export const skills = [
+  'AWS',
   'Security Integration',
   'Penetration Testing',
   'Incident Response',
@@ -8,7 +9,7 @@ export const skills = [
   'SIEM/SOAR',
   'IAM',
   'API/Web Development',
-  'DAST/SAST',
+  'DAST/SAST/IAST',
   'Python',
   'JavaScript',
   'Bash',
@@ -17,7 +18,6 @@ export const skills = [
   'MongoDB/NoSQL',
   'Terraform',
   'Atlantis CI',
-  'AWS',
   'Linux Administration',
   'Kubernetes',
   'Docker',
