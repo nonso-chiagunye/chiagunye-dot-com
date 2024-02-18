@@ -7,7 +7,7 @@ const job1 = {
   jobRole: 'CyberDefense Specialist',
   company: 'Jumia Group',
   jDs: [
-    '&#9672; Identify opportunities to improve security and implement the tools necessary to execute improvements considering full cloud automation',
+    '&#9672; Identify opportunities to improve security and implement the tools necessary to execute improvements considering full automation',
     '&#9672; Proactively identify and remediate security risks introduced by the cloud platforms, DevOps programs, or as flagged by vulnerability scanning software',
     '&#9672; Implement solutions necessary to address security audits and compliance efforts on the cloud platform, including PCI DSS',
     '&#9672; Drive continuous improvement to reduce threat dwell time in our environment through Security Orchestration Automation and Response (SOAR), Automated Incident Response Playbooks, and process simplification, among others',
